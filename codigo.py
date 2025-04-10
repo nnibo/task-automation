@@ -39,7 +39,7 @@ time.sleep(3) # Espera 3 segundos para a página carregar
 import pandas as pd
 
 tabela = pd.read_csv('produtos.csv') # Lê o arquivo CSV
-# 4. Cadastrar 1 produto
+# 4. Cadastrar os produtos
 
 
 for linha in tabela.index:
@@ -78,4 +78,3 @@ for linha in tabela.index:
     
     pyautogui.press('enter')
 
-# 5. Repetir para todos os produtos
